@@ -45,6 +45,8 @@ try:
                 driver.close()
             driver.switch_to.window(driver.window_handles[0])
             driver.refresh()
+        except KeyboardInterrupt:
+            pass
         except IndexError as err:
             print(err)
             driver.refresh() #if ad doesn't load fast enough-reload the page and start again
