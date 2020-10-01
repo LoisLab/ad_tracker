@@ -2,7 +2,7 @@
 
 This project uses python 3, Selenium, pytest, and pyautogui to automate the clicking of banner ads on news websites, and captures the URL that the ad click navigates to.
 
-The code and associated research were the result of work by a group of female high school students in southern Maine who became interested in the technologies and algorithms behind ad placement on news websites after hearing an (https://www.npr.org/2020/06/27/884213471/why-advertisers-wont-run-ads-on-black-lives-matter-content)[NPR interview on the topic].
+The code and associated research were the result of work by a group of female high school students in southern Maine who became interested in the technologies and algorithms behind ad placement on news websites after hearing an [NPR interview on the topic](https://www.npr.org/2020/06/27/884213471/why-advertisers-wont-run-ads-on-black-lives-matter-content).
 
 Your help with the project, either in the form of code improvements, new approaches, or data gathering, is much appreciated.  You can contact one of the group's coaches, Jeff Gunn, at jeff@loislab.org if you have questions.
 
@@ -35,4 +35,3 @@ At this point, you should be ready to download this repo and give it a try
 
 You can probably tell from the comments, but you may have to change a couple of lines of code on your system:
 - Pyautogui uses XY coordinates to click on banner ads, so depending on the size and resolution of your screen, this may change significantly.  Use trial and error to change the values in lines 31 & 32 until the mouse moves to the right location to hit the banner ad.
-- 
